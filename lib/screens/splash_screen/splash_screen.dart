@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_signup_ui/constants/app_color/app_color.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
@@ -9,7 +10,7 @@ class SplashScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Waqas'),
         centerTitle: true,
-        backgroundColor: Colors.blue,
+        backgroundColor: primaryColor,
       ),
     );
   }
