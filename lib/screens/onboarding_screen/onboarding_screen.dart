@@ -10,6 +10,9 @@ class OnboardingScreen extends StatelessWidget {
         title: Text('OnBoarding Screen'),
         backgroundColor: Colors.blue,
       ),
+      body: Center(
+        child: Text('OnBoarding Screen'),
+      ),
     );
   }
 }
