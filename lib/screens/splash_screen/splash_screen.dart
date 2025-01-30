@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:login_signup_ui/constants/app_color/app_color.dart';
+import 'package:login_signup_ui/controller/splash_controller.dart';
 
 class SplashScreen extends StatelessWidget {
-  const SplashScreen({super.key});
+
+  final SplashController splashController = Get.put(SplashController());
+   SplashScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

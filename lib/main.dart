@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:login_signup_ui/constants/app_color/app_color.dart';
 import 'package:login_signup_ui/screens/splash_screen/splash_screen.dart';
 
@@ -12,13 +13,13 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: primaryColor),
         useMaterial3: true,
       ),
-      home: const SplashScreen(),
+      home:  SplashScreen(),
     );
   }
 }
