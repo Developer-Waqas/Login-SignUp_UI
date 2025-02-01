@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:login_signup_ui/constants/image_strings/image_strings.dart';
+
+
+import '../../constants/app_linker/app_linker.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});

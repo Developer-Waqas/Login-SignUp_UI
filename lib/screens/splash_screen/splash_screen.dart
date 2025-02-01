@@ -1,7 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:login_signup_ui/constants/app_color/app_color.dart';
-import 'package:login_signup_ui/controller/splash_controller.dart';
+
+
+import '../../constants/app_linker/app_linker.dart';
 
 class SplashScreen extends StatelessWidget {
 

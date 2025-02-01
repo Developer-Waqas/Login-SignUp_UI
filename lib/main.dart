@@ -1,7 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:login_signup_ui/constants/app_color/app_color.dart';
-import 'package:login_signup_ui/screens/splash_screen/splash_screen.dart';
+
+
+import 'constants/app_linker/app_linker.dart';
 
 void main() {
   runApp(const MyApp());
