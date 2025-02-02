@@ -1,11 +1,8 @@
-
-
 import '../../constants/app_linker/app_linker.dart';
 
 class SplashScreen extends StatelessWidget {
-
   final SplashController splashController = Get.put(SplashController());
-   SplashScreen({super.key});
+  SplashScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +13,10 @@ class SplashScreen extends StatelessWidget {
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
-            colors: [primaryGradColor, secondaryGradColor],
+            colors: [
+              primaryGradColor,
+              secondaryGradColor,
+            ],
           ),
           image: DecorationImage(
               image: AssetImage('assets/images/img_splash_img.png'), scale: 3),
@@ -29,19 +29,14 @@ class SplashScreen extends StatelessWidget {
             ),
             Center(
               child: Text(
-                'aliments',
-                style: TextStyle(
-                  fontFamily: 'PoppinsBold',
-                  color: Colors.white,
-                  fontSize: 35
-                ),
+                AppString.splashTitle,
+                style: AppStyle.headingStyle1,
               ),
             ),
-            Text('Food Delivery Services',style: TextStyle(
-              fontSize: 16,
-              fontFamily: 'PoppinsRegular',
-              color: Colors.white,
-            ),),
+            Text(
+              AppString.splashSubTitle,
+              style: AppStyle.subHeadingStyle1,
+            )
           ],
         ),
       ),
