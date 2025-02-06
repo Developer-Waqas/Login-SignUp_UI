@@ -16,6 +16,8 @@ class OnboardingScreen extends StatelessWidget {
               children: [
                 Image.asset(
                   onboardingController.onboardingPages[index].imagePath,
+                  height: 256,
+                  width: 256,
                 ),
                 Text(
                   onboardingController.onboardingPages[index].title,
