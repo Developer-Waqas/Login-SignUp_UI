@@ -18,14 +18,14 @@ class SplashScreen extends StatelessWidget {
               secondaryGradColor,
             ],
           ),
-          image: DecorationImage(
-              image: AssetImage('assets/images/img_splash_img.png'), scale: 3),
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SizedBox(
-              height: 150,
+            Image.asset(
+              AppImageAssets.splashImage,
+              height: 79,
+              width: 79,
             ),
             Center(
               child: Text(

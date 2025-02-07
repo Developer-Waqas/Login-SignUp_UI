@@ -1,6 +1,7 @@
 import '../constants/app_linker/app_linker.dart';
 
 class OnboardingController extends GetxController {
+  // Onboarding Page List
   List<OnboardingModel> onboardingPages = [
     OnboardingModel(
       AppImageAssets.onboardingImage1,

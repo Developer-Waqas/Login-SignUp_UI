@@ -1,7 +1,7 @@
 import 'package:login_signup_ui/constants/app_linker/app_linker.dart';
 
 class AppStyle {
-  /// Title Style
+  // Title Style
   static const TextStyle headingStyle1 = TextStyle(
     fontFamily: 'PoppinsBold',
     color: Colors.white,
@@ -14,7 +14,7 @@ class AppStyle {
     color: Color(0xffFF800B),
   );
 
-  /// SubTitle Style
+  // SubTitle Style
   static const TextStyle subHeadingStyle1 = TextStyle(
     fontSize: 16,
     fontFamily: 'PoppinsRegular',

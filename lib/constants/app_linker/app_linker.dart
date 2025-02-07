@@ -1,7 +1,7 @@
 export 'package:flutter/material.dart';
 export 'package:get/get.dart';
 export 'dart:async';
-export 'package:login_signup_ui/constants/image_strings/app_image_assets.dart';
+export 'package:login_signup_ui/constants/app_image_assets/app_image_assets.dart';
 export 'package:login_signup_ui/screens/onboarding_screen/onboarding_screen.dart';
 export 'package:login_signup_ui/constants/app_color/app_color.dart';
 export 'package:login_signup_ui/controller/splash_controller.dart';

@@ -11,7 +11,10 @@ class OnboardingScreen extends StatelessWidget {
         itemCount: onboardingController.onboardingPages.length,
         itemBuilder: (context, index) {
           return Container(
+            decoration: BoxDecoration(color: Colors.white),
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
               spacing: 10,
               children: [
                 Image.asset(
