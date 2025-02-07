@@ -107,6 +107,18 @@ class OnboardingScreen extends StatelessWidget {
                   textStyle: AppStyle.buttonStyle1,
                   borderRadius: BorderRadius.circular(15),
                 ),
+                SizedBox(
+                  height: 20,
+                ),
+                CustomButton(
+                  onPressed: () {},
+                  text: 'Create an account',
+                  height: 57,
+                  width: 300,
+                  color: Colors.black,
+                  textStyle: AppStyle.buttonStyle2,
+                  borderRadius: BorderRadius.circular(15),
+                ),
               ],
             ),
           ),
