@@ -30,4 +30,12 @@ class AppStyle {
     color: Color(0xff595959),
     decoration: TextDecoration.none,
   );
+
+  // Button Style
+  static const TextStyle buttonStyle1 = TextStyle(
+    fontSize: 16,
+    fontFamily: 'PoppinsRegular',
+    color: Colors.black,
+    decoration: TextDecoration.none,
+  );
 }

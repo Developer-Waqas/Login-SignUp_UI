@@ -1,3 +1,5 @@
+import 'package:login_signup_ui/widgets/custom_button/custom_button.dart';
+
 import '../../constants/app_linker/app_linker.dart';
 
 class OnboardingScreen extends StatelessWidget {
@@ -50,7 +52,7 @@ class OnboardingScreen extends StatelessWidget {
               );
             }),
         Positioned(
-          top: 500,
+          top: 465,
           left: 145,
           child: Obx(
             () => Row(
@@ -75,7 +77,40 @@ class OnboardingScreen extends StatelessWidget {
         ),
         SizedBox(
           height: 50,
-        )
+        ),
+        Positioned(
+          bottom: 0,
+          child: Container(
+            height: 267,
+            width: 428,
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomLeft,
+                colors: [
+                  AppColors().primaryGradColor,
+                  AppColors().secondaryGradColor,
+                ],
+              ),
+            ),
+            child: Column(
+              children: [
+                SizedBox(
+                  height: 20,
+                ),
+                CustomButton(
+                  onPressed: () {},
+                  text: 'Login',
+                  height: 57,
+                  width: 300,
+                  color: Colors.white,
+                  textStyle: AppStyle.buttonStyle1,
+                  borderRadius: BorderRadius.circular(15),
+                ),
+              ],
+            ),
+          ),
+        ),
       ],
     );
   }
