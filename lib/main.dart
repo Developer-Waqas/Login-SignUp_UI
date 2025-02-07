@@ -1,5 +1,3 @@
-
-
 import 'constants/app_linker/app_linker.dart';
 
 void main() {
@@ -15,11 +13,10 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: primaryColor),
+        colorScheme: ColorScheme.fromSeed(seedColor: AppColors().primaryColor),
         useMaterial3: true,
       ),
-      home:  SplashScreen(),
+      home: SplashScreen(),
     );
   }
 }
-
