@@ -10,3 +10,4 @@ export 'package:login_signup_ui/constants/app_strings/app_string.dart';
 export 'package:login_signup_ui/constants/app_style/app_style.dart';
 export 'package:login_signup_ui/models/onboarding_model.dart';
 export 'package:login_signup_ui/controller/getx/onboarding_controller.dart';
+export 'package:login_signup_ui/widgets/custom_button/custom_button.dart';
