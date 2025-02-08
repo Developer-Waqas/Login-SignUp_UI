@@ -1,7 +1,4 @@
-import 'dart:async';
-
-import 'package:get/get.dart';
-import 'package:login_signup_ui/screens/onboarding_screen/onboarding_screen.dart';
+import '../../constants/app_linker/app_linker.dart';
 
 class SplashController extends GetxController {
   @override
