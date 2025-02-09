@@ -8,7 +8,6 @@ class SplashController extends GetxController {
   }
 
   void navigateToOnboarding() {
-    Timer(Duration(seconds: 3),
-        () => Get.off(OnboardingScreen(), transition: Transition.fadeIn));
+    Timer(Duration(seconds: 2), () => Get.to(OnboardingScreen()));
   }
 }
